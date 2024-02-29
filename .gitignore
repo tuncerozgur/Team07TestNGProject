@@ -1,0 +1,48 @@
+# IntelliJ IDEA files
+.idea/
+
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# Maven
+target/
+
+# Gradle
+build/
+.gradle/
+
+# Eclipse
+bin/
+.metadata/
+.settings/
+.classpath
+.project
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see https://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# OS-specific files
+.DS_Store
+Thumbs.db
