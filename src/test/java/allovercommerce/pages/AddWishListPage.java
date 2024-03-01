@@ -1,2 +1,3 @@
-package allovercommerce.pages;public class AddWishListPage {
+package allovercommerce.pages;
+public class AddWishListPage {
 }

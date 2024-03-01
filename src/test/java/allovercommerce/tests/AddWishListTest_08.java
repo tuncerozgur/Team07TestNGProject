@@ -1,2 +1,4 @@
-package allovercommerce.tests;public class AddWishListTest_08 {
+package allovercommerce.tests;
+
+public class AddWishListTest_08 {
 }
