@@ -34,4 +34,6 @@ public class VendorRegistrationPage_09 {
  @FindBy(xpath ="//div[@id='password_strength']")
  public WebElement passwordStrong;
 
+
+
 }
