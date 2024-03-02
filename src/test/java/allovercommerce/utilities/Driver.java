@@ -15,7 +15,7 @@ public class Driver {
     driver acik iken tekrar cagirilirsa if block calismayacagindan bu method mevcut driver i tekrar return edecek
     buylece ayni driver uzerinden test senaryomuza devam edebileceğiz
      */
-    static WebDriver driver;
+  static WebDriver driver;
 
     private Driver() {
         /*

@@ -1,5 +1,6 @@
 package allovercommerce.pages;
 
+
 import allovercommerce.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -73,6 +74,7 @@ public class AddWishListPage {
 
     @FindBy(xpath = "//p[.='Thank you. Your order has been received.']")
     public WebElement thanksForYourOrderMessage;
+
 
 
 
