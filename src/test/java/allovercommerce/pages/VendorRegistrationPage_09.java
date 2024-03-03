@@ -41,4 +41,6 @@ public class VendorRegistrationPage_09 {
 public  WebElement confirmMessage;
 
 
+
+
 }

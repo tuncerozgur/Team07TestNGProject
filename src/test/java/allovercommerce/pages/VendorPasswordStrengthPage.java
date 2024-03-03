@@ -22,4 +22,6 @@ public class VendorPasswordStrengthPage {
 
     @FindBy(xpath = "//div[@id='password_strength']")
     public  WebElement passwordText;
+
+
 }

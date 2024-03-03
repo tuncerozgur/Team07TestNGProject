@@ -12,7 +12,6 @@ public class AddWishListPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-
     @FindBy(xpath = "//*[.='Sign In']")//griş butonu
     public WebElement signInButton;
 
