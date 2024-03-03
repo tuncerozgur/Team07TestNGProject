@@ -39,6 +39,9 @@ public class RegisterPage {
     @FindBy(xpath ="//span[.='Sign Out']" )
     public WebElement signOutButton;
 
+    @FindBy(xpath = "//a[.='Log out']")
+    public WebElement logOutButton;
+
 
 
 
