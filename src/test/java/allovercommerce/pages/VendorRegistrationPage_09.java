@@ -18,6 +18,9 @@ public class VendorRegistrationPage_09 {
  @FindBy(partialLinkText="Become a Vendor")
  public WebElement becomeAvendorText;
 
+ @FindBy(xpath ="(//a[@href='https://allovercommerce.com/vendor-register/'])[2]")
+ public WebElement becomeAvendorText2;
+
  @FindBy(css ="#user_email" )
  public WebElement VendorEmailAddres;
 
@@ -34,6 +37,8 @@ public class VendorRegistrationPage_09 {
  @FindBy(xpath ="//div[@id='password_strength']")
  public WebElement passwordStrong;
 
+ @FindBy(xpath ="//div[@class='wcfm-message wcfm-error']")
+public  WebElement confirmMessage;
 
 
 }
