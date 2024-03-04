@@ -29,8 +29,8 @@ public class VendorRegistrationTest_09 {
 12	Kullanıcı şifrenin bu hali için de sign up butonu aktif olur
 */
 
-    String alinanEmailadresi="weldon.makarios@farmoaks.com";
-    String alinanVerificationCode="327656";
+    String alinanEmailadresi;
+    String alinanVerificationCode;
 @Test
 public void test01(){
     // Kullanıcı websitesine gider
@@ -101,6 +101,8 @@ public void test01(){
     //Confirm password alanı passwordun aynısı olarak doldurulur
    // 12	Kullanıcı şifrenin bu hali için de sign up butonu aktif olur
     vendorregister.confirmPasswordTextBox.sendKeys("123456789aAx",Keys.TAB,Keys.ENTER);
+
+    Driver.closeDriver();
 
 }
 
@@ -189,7 +191,7 @@ public void test01(){
 
     }
 
-    @Test
+    @Test(dependsOnMethods = "test01")
     public void test03(){
     /*1	Kullanıcı websitesine gider
 2	 Register sekmesine tıklanılır
