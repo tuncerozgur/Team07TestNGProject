@@ -1,5 +1,6 @@
 package allovercommerce.tests;
 
+
 import allovercommerce.pages.AddWishListPage;
 import allovercommerce.utilities.ConfigReader;
 import allovercommerce.utilities.Driver;
@@ -71,5 +72,6 @@ public class AddWishListTest_08 {
         addWishListPage.placeOrderButton.click();
         Assert.assertTrue(addWishListPage.thanksForYourOrderMessage.isDisplayed());
     }
+
 
 }
