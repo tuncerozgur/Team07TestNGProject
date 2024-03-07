@@ -36,6 +36,15 @@ public class AddWishListPage {
 
     @FindBy(xpath ="//a[@data-title='Browse wishlist...']")
     public WebElement addToFavorite;
+    @FindBy(xpath ="(//a[@class='add_to_wishlist single_add_to_wishlist'])[1]")//içi boş kalp sembolu
+    public WebElement kalpisareti;
+
+    @FindBy(xpath ="//button[@class='btn btn-quickview btn-outline btn-default btn-rounded btn-sm mr-lg-2']")//kalbe tıklanınca açılan sayfadaki
+    //quick view butonu
+    public WebElement wishListQuickViewButton;
+
+    @FindBy(xpath = "//button[@title='Close (Esc)']")
+     public  WebElement quickViewCloseButton;
 
     @FindBy(xpath = "//a[@class='wishlist block-type']")//wishlist page
     public WebElement wishListButton;
@@ -43,11 +52,28 @@ public class AddWishListPage {
     @FindBy(xpath = "//a[.='Macbook V20.1']")
     public WebElement productMac2;
 
+
+    @FindBy(xpath = "//span[@class='woocommerce-Price-currencySymbol']")
+    public WebElement dolarsembol;
     @FindBy(xpath = "//button[@class='btn btn-quickview btn-outline btn-default btn-rounded btn-sm mr-lg-2']")
     public WebElement quickViewButton;
 
     @FindBy(xpath = "//button[@class='single_add_to_cart_button button alt']")
     public WebElement addToCartButton;
+
+
+    @FindBy(xpath = "//a[@class='btn btn-dark btn-rounded btn-sm add_to_cart alt']")//quick view yanındaki buton
+    public WebElement addToCartButton2;
+
+
+    @FindBy(xpath = "(//i[@class='w-icon-cart'])[1]")//sepet ikonu
+    public WebElement cardBasket;
+    @FindBy(xpath = "//a[@class='button checkout wc-forward']")//sepete ekleden sonraki checkout butonu
+    public WebElement checkOutButonu;
+
+
+
+
 
     @FindBy(xpath = "//a[@class='product-title']")
     public WebElement wishlistPopUp;
@@ -69,12 +95,22 @@ public class AddWishListPage {
     @FindBy(xpath = "//input[@id='payment_method_cod']")
     public WebElement payAtDoor;
 
-    @FindBy(xpath = "//button[.='Place order']")
+    @FindBy(xpath = "//button[@name='woocommerce_checkout_place_order']")
     public WebElement placeOrderButton;
+
+
+    @FindBy(xpath = "//input[@id='payment_method_cod']")
+    public WebElement kapidaOdemeButon;
 
     @FindBy(xpath = "//p[.='Thank you. Your order has been received.']")
     public WebElement thanksForYourOrderMessage;
 
+
+    @FindBy(xpath = "//*[.='Place order']")
+    public WebElement onayButonu;
+
+    @FindBy(xpath = "//*[.='Thank you. Your order has been received.']")
+    public WebElement bilgiMesaji;
 
 
 
