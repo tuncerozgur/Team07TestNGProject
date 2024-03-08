@@ -1,2 +1,3 @@
-package allovercommerce.tests;public class AddProductTest_14 {
+package allovercommerce.tests;
+public class AddProductTest_14 {
 }
