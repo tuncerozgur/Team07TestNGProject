@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BATCH210_TEAM07">
+    <test name=" Smoke Test">
+        <groups>
+            <run>
+                <include name="smoke">
+
+                </include>
+            </run>
+        </groups>
+
+
+
+        <packages>
+            <package name="allovercommerce.*">
+            </package>
+        </packages>
+    </test>
+</suite>
