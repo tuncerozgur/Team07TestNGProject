@@ -1,5 +1,6 @@
 package allovercommerce.tests;
 
+
 import allovercommerce.pages.AddProductPage_14;
 import allovercommerce.utilities.ConfigReader;
 import allovercommerce.utilities.Driver;
@@ -185,4 +186,5 @@ public class AddProductTest_14 {
         //Eklenilen kategori Product brands listesinde dogrulanir
         Assert.assertTrue(addProductPage14.finalCheckBox.isSelected());
     }
+
 }
