@@ -60,8 +60,9 @@ public class AccountDetailsTest {
         accountDetailsPage.confirmPasswordBox.sendKeys("goforvictory.1907");
 
         //save changes butonuna bas
-        //accountDetailsPage.saveChangesButton.click();
+        accountDetailsPage.saveChangesButton.click();
 
+        Driver.closeDriver();
 
     }
 }
