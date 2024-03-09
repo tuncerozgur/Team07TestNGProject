@@ -18,9 +18,9 @@ public class StoreManagerTest {
         StoreManagerPage storeManagerPage= new StoreManagerPage();
         storeManagerPage.signInButton.click();
         // Username or email address kutusuna Username girilir
-        storeManagerPage.usernameBox.sendKeys(ConfigReader.getProperty("alloverCommerceUsername"));
+        storeManagerPage.usernameBox.sendKeys(ConfigReader.getProperty("vendoruserName11"));
         //Password kutusuna Password girilir
-        storeManagerPage.passwordBox.sendKeys(ConfigReader.getProperty("alloverCommercePassword"));
+        storeManagerPage.passwordBox.sendKeys(ConfigReader.getProperty("vendorpassword11"));
         //Sign in butonuna tıklar
         storeManagerPage.signInButton2.click();
 
